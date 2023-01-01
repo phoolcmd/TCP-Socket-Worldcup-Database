@@ -1,6 +1,6 @@
 Project Creators: Bailey Seyller & Noah Wood
 
-This project is a very basic multithread TCP socket database, with two applications.
+This project is a very basic multithreaded TCP socket database, with two applications.
 
 First compile and run the server application, and then run the client application both located in "src/main/java/edu/ucdenver/app".
 
