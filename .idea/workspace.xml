@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35c473e6-a753-4033-915f-c28ae5c9c4bb" name="Changes" comment="Code Cleanup">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA1 JavaDoc/edu/ucdenver/tournament/Country.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA1 JavaDoc/edu/ucdenver/tournament/LineUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA1 JavaDoc/edu/ucdenver/tournament/Match.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA1 JavaDoc/edu/ucdenver/tournament/Player.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA1 JavaDoc/edu/ucdenver/tournament/Referee.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA1 JavaDoc/edu/ucdenver/tournament/Team.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA1 JavaDoc/edu/ucdenver/tournament/Test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA1 JavaDoc/edu/ucdenver/tournament/Tournament.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA1 JavaDoc/edu/ucdenver/tournament/package-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PA1 JavaDoc/edu/ucdenver/tournament/package-tree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/app/AdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/app/AdminController.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/app/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/app/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/app/ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/app/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/app/ClientWorkerController.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/app/ServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/server/ClientWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/tournament/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/tournament/LineUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/tournament/Match.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/tournament/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/tournament/Referee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/tournament/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/ucdenver/tournament/Tournament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2022_11_24_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2022_7_08_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2022_7_22_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2022_7_46_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_10_2022_9_59_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_2022_11_01_AM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_2022_11_09_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_2022_11_16_AM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_11_11_2022_12_54_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PA1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PA1.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2GgVKkpavTygUPBZWFaMVWxpkYr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
+    "last_opened_file_path": "C:/Users/sentinel/Desktop/Programming Projects/PA1_1",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sentinel\Desktop\Programming Projects\PA1" />
+      <recent name="C:\Users\Bailey\IdeaProjects\PA1" />
+      <recent name="C:\Users\Bailey\IdeaProjects\PA1\src\edu\ucdenver\app" />
+      <recent name="C:\Users\Bailey\IdeaProjects\PA1\src" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="edu.ucdenver.app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClientApplication (1)">
+    <configuration name="AdminApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ucdenver.app.AdminApplication" />
+      <module name="PA1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucdenver.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApplication (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ucdenver.app.ClientApplication" />
+      <module name="PA1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucdenver.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ucdenver.app.ClientApplication" />
+      <module name="PA1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucdenver.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ucdenver.app.Main" />
+      <module name="PA1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucdenver.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ucdenver.app.ServerApplication" />
+      <module name="PA1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucdenver.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.ucdenver.tournament.Test" />
+      <module name="PA1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.ucdenver.tournament.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ClientApplication (1)" />
+      <item itemvalue="Application.AdminApplication" />
+      <item itemvalue="Application.ClientApplication" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ServerApplication" />
+      <item itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServerApplication" />
+        <item itemvalue="Application.AdminApplication" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ClientApplication" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35c473e6-a753-4033-915f-c28ae5c9c4bb" name="Changes" comment="added ReadMe.md" />
+      <created>1666810152944</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666810152944</updated>
+      <workItem from="1667519463515" duration="530000" />
+      <workItem from="1667967256187" duration="6201000" />
+      <workItem from="1668022578142" duration="2653000" />
+      <workItem from="1668040196291" duration="6754000" />
+      <workItem from="1668192184660" duration="4228000" />
+      <workItem from="1668196871524" duration="532000" />
+      <workItem from="1668570252332" duration="7780000" />
+      <workItem from="1668666684090" duration="785000" />
+      <workItem from="1669227246288" duration="2000" />
+      <workItem from="1669421851577" duration="603000" />
+      <workItem from="1669594035253" duration="1000" />
+      <workItem from="1669594701967" duration="280000" />
+      <workItem from="1669597747828" duration="155000" />
+      <workItem from="1669598579666" duration="4000" />
+      <workItem from="1670638658641" duration="399000" />
+      <workItem from="1670639069890" duration="8000" />
+      <workItem from="1670643715795" duration="104000" />
+      <workItem from="1670719901749" duration="2043000" />
+      <workItem from="1670725749987" duration="6981000" />
+      <workItem from="1670802933828" duration="619000" />
+      <workItem from="1670810988566" duration="1012000" />
+      <workItem from="1670814826035" duration="197000" />
+      <workItem from="1670815174598" duration="44000" />
+    </task>
+    <task id="LOCAL-00001" summary="Addded Two class files">
+      <created>1667519566723</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667519566723</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Started to build out the constructor, getters, and setters...">
+      <created>1667521912404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667521912404</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Started to build out the constructor, getters, and setters...">
+      <created>1667522029100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667522029100</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created Referee class">
+      <created>1667522394775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667522394775</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Filled in functions for Tournament class and included exception handling as well as possible additions to be made later. Also, modified existing classes with a few typos ones that support Tournament class.">
+      <created>1667534073611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667534073611</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added to PlayerToMatch, setMatchScore, getUpcomingMatches,getMatchesOn,getMatchesFor, added toString methods">
+      <created>1667592499245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667592499245</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added to the tournament package added to the functions that were previously defined and created arraylist objects to reference to that the retrieve list in a few classes works properly.">
+      <created>1667944318948</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667944318948</updated>
+    </task>
+    <task id="LOCAL-00008" summary="various updates to functions that were previously not complete">
+      <created>1667956251656</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667956251656</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added the files for the client side fx application">
+      <created>1667956770321</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667956770321</updated>
+    </task>
+    <task id="LOCAL-00010" summary="put the new files in the correct directory">
+      <created>1667956871934</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667956871934</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added toString to all classes">
+      <created>1667968503562</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667968503562</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Changed object initialization of Country in :Tournament::addCountry">
+      <created>1667969315558</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667969315558</updated>
+    </task>
+    <task id="LOCAL-00013" summary="tried to get country list to print. created getCountryList method in Tournament">
+      <created>1667970790782</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667970790782</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Wrote ClientWorker">
+      <created>1668050635106</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668050635106</updated>
+    </task>
+    <task id="LOCAL-00015" summary="updates to tournament">
+      <created>1668055069649</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668055069649</updated>
+    </task>
+    <task id="LOCAL-00016" summary="updates to tournament and Lineup with tests">
+      <created>1668116162506</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1668116162506</updated>
+    </task>
+    <task id="LOCAL-00017" summary="updates to tournament added more exception handling to various functions">
+      <created>1668133116914</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1668133116914</updated>
+    </task>
+    <task id="LOCAL-00018" summary="changed Match getTeamA and getTeamB to be type lineup as well as how other methods were called">
+      <created>1668134568149</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1668134568149</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Fixed toString for all classes">
+      <created>1668151435914</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668151435914</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Fixed toString for all classes">
+      <created>1668151472841</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1668151472841</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Updated addCountry">
+      <created>1668189341618</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668189341618</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updated clientworker error handling">
+      <created>1668191207270</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1668191207270</updated>
+    </task>
+    <task id="LOCAL-00023" summary="changes to loadFromFile">
+      <created>1668578470652</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668578470652</updated>
+    </task>
+    <task id="LOCAL-00024" summary="changes to loadFromFile">
+      <created>1668578824539</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668578824539</updated>
+    </task>
+    <task id="LOCAL-00025" summary="changes to loadFromFile and toString in match and removed implements serializable from all classes">
+      <created>1668582198364</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1668582198364</updated>
+    </task>
+    <task id="LOCAL-00026" summary="changes to loadFromFile">
+      <created>1668583641558</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1668583641558</updated>
+    </task>
+    <task id="LOCAL-00027" summary="changes to loadFromFile and toString in Match and lineUp">
+      <created>1668586492301</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1668586492301</updated>
+    </task>
+    <task id="LOCAL-00028" summary="changes to loadFromFile">
+      <created>1668586589701</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1668586589701</updated>
+    </task>
+    <task id="LOCAL-00029" summary="changes to loadFromFile still need to fix referees">
+      <created>1668642006797</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1668642006797</updated>
+    </task>
+    <task id="LOCAL-00030" summary="changes to loadFromFile fixed getUpcomingMatches">
+      <created>1668646556985</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1668646556985</updated>
+    </task>
+    <task id="LOCAL-00031" summary="fixed getUpcomingMatches">
+      <created>1668646988338</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1668646988338</updated>
+    </task>
+    <task id="LOCAL-00032" summary="fixed getUpcomingMatches">
+      <created>1668647133876</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1668647133876</updated>
+    </task>
+    <task id="LOCAL-00033" summary="fixed getUpcomingMatches">
+      <created>1668647471575</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1668647471575</updated>
+    </task>
+    <task id="LOCAL-00034" summary="fixed loadFromFile">
+      <created>1668651015117</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1668651015117</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Tournament loadFile changes.">
+      <created>1668660748331</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1668660748331</updated>
+    </task>
+    <task id="LOCAL-00036" summary="added ReadMe.md">
+      <created>1668666241337</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1668666241337</updated>
+    </task>
+    <task id="LOCAL-00037" summary="added ReadMe.md&#10;javaDoc folder">
+      <created>1668667239466</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1668667239466</updated>
+    </task>
+    <task id="LOCAL-00038" summary="javaDoc excluded">
+      <created>1668667286732</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1668667286732</updated>
+    </task>
+    <task id="LOCAL-00039" summary="javaDoc folder">
+      <created>1668667480030</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1668667480030</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="put the new files in the correct directory" />
+    <MESSAGE value="Added toString to all classes" />
+    <MESSAGE value="Changed object initialization of Country in :Tournament::addCountry" />
+    <MESSAGE value="tried to get country list to print. created getCountryList method in Tournament" />
+    <MESSAGE value="Wrote ClientWorker" />
+    <MESSAGE value="updates to tournament" />
+    <MESSAGE value="updates to tournament and Lineup with tests" />
+    <MESSAGE value="updates to tournament added more exception handling to various functions" />
+    <MESSAGE value="changed Match getTeamA and getTeamB to be type lineup as well as how other methods were called" />
+    <MESSAGE value="Added Client command functionality and modified toString to be compatible with protocol" />
+    <MESSAGE value="Fixed toString for all classes" />
+    <MESSAGE value="Updated addCountry" />
+    <MESSAGE value="Updated clientworker error handling" />
+    <MESSAGE value="changes to loadFromFile and toString in match and removed implements serializable from all classes" />
+    <MESSAGE value="changes to loadFromFile and toString in Match and lineUp" />
+    <MESSAGE value="changes to loadFromFile" />
+    <MESSAGE value="changes to loadFromFile still need to fix referees" />
+    <MESSAGE value="changes to loadFromFile fixed getUpcomingMatches" />
+    <MESSAGE value="fixed getUpcomingMatches" />
+    <MESSAGE value="fixed loadFromFile" />
+    <MESSAGE value="Tournament loadFile changes." />
+    <MESSAGE value="added ReadMe.md" />
+    <MESSAGE value="added ReadMe.md&#10;javaDoc folder" />
+    <MESSAGE value="javaDoc excluded" />
+    <MESSAGE value="javaDoc folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="javaDoc folder" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="19" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PA1$Test.ic" NAME="Test Coverage Results" MODIFIED="1668213598207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.ucdenver.tournament.*</FILTER>
+    </SUITE>
+  </component>
+</project>

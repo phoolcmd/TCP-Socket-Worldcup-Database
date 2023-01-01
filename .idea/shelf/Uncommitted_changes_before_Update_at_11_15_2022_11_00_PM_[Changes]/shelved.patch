@@ -1,0 +1,223 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,24 +1,14 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AnalysisUIOptions">
++    <option name="CUSTOM_SCOPE_NAME" value="Current File" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="37067ab4-203f-4572-9bd0-d094f9afee75" name="Changes" comment="Updated clientworker error handling">
+-      <change afterPath="$PROJECT_DIR$/src/edu/ucdenver/app/Client.java" afterDir="false" />
++    <list default="true" id="37067ab4-203f-4572-9bd0-d094f9afee75" name="Changes" comment="changes to loadFromFile">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/app/ClientWorkerAdmin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ucdenver/app/ClientWorkerAdmin.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/app/ClientWorkerAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ucdenver/app/ClientWorkerAdminController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/app/ClientWorkerController.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ucdenver/app/ClientWorkerController.fxml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/app/ClientWorkerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ucdenver/app/ClientController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/app/ServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ucdenver/app/ServerApplication.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/server/ClientWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ucdenver/server/ClientWorker.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ucdenver/server/Server.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Country.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/tournament/LineUp.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Match.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Player.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Referee.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Team.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Test.java" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Tournament.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Match.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Test.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Tournament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/ucdenver/tournament/Tournament.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -52,18 +42,19 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sentinel/Desktop/Programming Projects/PA1&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false",
++    "last_opened_file_path": "C:/Users/sentinel/Desktop/Programming Projects/PA1",
++    "project.structure.last.edited": "Project",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0",
++    "run.code.analysis.last.selected.profile": "pProject Default",
++    "settings.editor.selected.configurable": "vcs.Git"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="C:\Users\Bailey\IdeaProjects\PA1\src\edu\ucdenver\app" />
+@@ -73,9 +64,9 @@
+       <recent name="edu.ucdenver.app" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.ClientApplication (1)">
+-    <configuration name="ClientApplication (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="edu.ucdenver.app.ClientApplication" />
++  <component name="RunManager" selected="Application.Test">
++    <configuration name="AdminApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="edu.ucdenver.app.AdminApplication" />
+       <module name="PA1" />
+       <extension name="coverage">
+         <pattern>
+@@ -87,7 +78,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++    <configuration name="ClientApplication (1)" type="Application" factoryName="Application" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="edu.ucdenver.app.ClientApplication" />
+       <module name="PA1" />
+       <extension name="coverage">
+@@ -100,8 +91,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="ClientWorkerAdminController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="edu.ucdenver.app.ClientWorkerAdminController" />
++    <configuration name="ClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="edu.ucdenver.app.ClientApplication" />
+       <module name="PA1" />
+       <extension name="coverage">
+         <pattern>
+@@ -154,19 +145,19 @@
+     </configuration>
+     <list>
+       <item itemvalue="Application.ClientApplication (1)" />
++      <item itemvalue="Application.AdminApplication" />
+       <item itemvalue="Application.ClientApplication" />
+-      <item itemvalue="Application.ClientWorkerAdminController" />
+       <item itemvalue="Application.Main" />
+       <item itemvalue="Application.ServerApplication" />
+       <item itemvalue="Application.Test" />
+     </list>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Test" />
++        <item itemvalue="Application.AdminApplication" />
+         <item itemvalue="Application.ServerApplication" />
+         <item itemvalue="Application.ClientApplication" />
+-        <item itemvalue="Application.Test" />
+         <item itemvalue="Application.Main" />
+-        <item itemvalue="Application.ClientWorkerAdminController" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -339,7 +330,49 @@
+       <option name="project" value="LOCAL" />
+       <updated>1668191207270</updated>
+     </task>
+-    <option name="localTasksCounter" value="23" />
++    <task id="LOCAL-00023" summary="changes to save and load from file">
++      <created>1668478718598</created>
++      <option name="number" value="00023" />
++      <option name="presentableId" value="LOCAL-00023" />
++      <option name="project" value="LOCAL" />
++      <updated>1668478718598</updated>
++    </task>
++    <task id="LOCAL-00024" summary="trying to fix git">
++      <created>1668479438154</created>
++      <option name="number" value="00024" />
++      <option name="presentableId" value="LOCAL-00024" />
++      <option name="project" value="LOCAL" />
++      <updated>1668479438154</updated>
++    </task>
++    <task id="LOCAL-00025" summary="Small changes to addPlayerToMatch">
++      <created>1668481511090</created>
++      <option name="number" value="00025" />
++      <option name="presentableId" value="LOCAL-00025" />
++      <option name="project" value="LOCAL" />
++      <updated>1668481511090</updated>
++    </task>
++    <task id="LOCAL-00026" summary="changes to save and load and added implements serializable to classes">
++      <created>1668488277104</created>
++      <option name="number" value="00026" />
++      <option name="presentableId" value="LOCAL-00026" />
++      <option name="project" value="LOCAL" />
++      <updated>1668488277104</updated>
++    </task>
++    <task id="LOCAL-00027" summary="changes to Team toString needed to add the players in order to make the save and load work made more sense here instead of adding the team to every player's name">
++      <created>1668488482367</created>
++      <option name="number" value="00027" />
++      <option name="presentableId" value="LOCAL-00027" />
++      <option name="project" value="LOCAL" />
++      <updated>1668488482367</updated>
++    </task>
++    <task id="LOCAL-00028" summary="changes to loadFromFile">
++      <created>1668492332751</created>
++      <option name="number" value="00028" />
++      <option name="presentableId" value="LOCAL-00028" />
++      <option name="project" value="LOCAL" />
++      <updated>1668492332751</updated>
++    </task>
++    <option name="localTasksCounter" value="29" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -374,9 +407,6 @@
+     </option>
+   </component>
+   <component name="VcsManagerConfiguration">
+-    <MESSAGE value="Addded Two class files" />
+-    <MESSAGE value="Started to build out the constructor, getters, and setters..." />
+-    <MESSAGE value="Created Referee class" />
+     <MESSAGE value="Filled in functions for Tournament class and included exception handling as well as possible additions to be made later. Also, modified existing classes with a few typos ones that support Tournament class." />
+     <MESSAGE value="added to PlayerToMatch, setMatchScore, getUpcomingMatches,getMatchesOn,getMatchesFor, added toString methods" />
+     <MESSAGE value="added to the tournament package added to the functions that were previously defined and created arraylist objects to reference to that the retrieve list in a few classes works properly." />
+@@ -395,7 +425,14 @@
+     <MESSAGE value="Fixed toString for all classes" />
+     <MESSAGE value="Updated addCountry" />
+     <MESSAGE value="Updated clientworker error handling" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Updated clientworker error handling" />
++    <MESSAGE value="changes to save and load from file" />
++    <MESSAGE value="trying to fix git" />
++    <MESSAGE value="Small changes to addPlayerToMatch" />
++    <MESSAGE value="changes to save and load and added implements serializable to classes" />
++    <MESSAGE value="changes to Team toString needed to add the players in order to make the save and load work" />
++    <MESSAGE value="changes to Team toString needed to add the players in order to make the save and load work made more sense here instead of adding the team to every player's name" />
++    <MESSAGE value="changes to loadFromFile" />
++    <option name="LAST_COMMIT_MESSAGE" value="changes to loadFromFile" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+@@ -413,8 +450,17 @@
+         <breakpoint enabled="true" type="java-exception">
+           <properties class="java.lang.NullPointerException" package="java.lang" />
+           <option name="timeStamp" value="19" />
++        </breakpoint>
++        <breakpoint enabled="true" type="java-exception">
++          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
++          <option name="timeStamp" value="47" />
+         </breakpoint>
+       </breakpoints>
+     </breakpoint-manager>
+   </component>
++  <component name="com.intellij.coverage.CoverageDataManagerImpl">
++    <SUITE FILE_PATH="coverage/PA1$Test.ic" NAME="Test Coverage Results" MODIFIED="1668213598207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
++      <FILTER>edu.ucdenver.tournament.*</FILTER>
++    </SUITE>
++  </component>
+ </project>
+\ No newline at end of file
