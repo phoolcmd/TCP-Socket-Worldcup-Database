@@ -4,11 +4,14 @@
 This project is a multithreaded TCP socket database written in Java and JavaFX. It allows users to create, read, update, and delete player and team data for the FIFA World Cup.
 
 # How to Use
-Compile and run the ServerApplication located in "src/main/java/edu/ucdenver/app".
-Run the ClientApplication located in "src/main/java/edu/ucdenver/app".
-Use the GUI to interact with the database.
+1. Compile and run the ServerApplication located in "src/main/java/edu/ucdenver/app".
+2. Run the ClientApplication located in "src/main/java/edu/ucdenver/app".
+3. Use the GUI to interact with the database.
+
 The "t.txt" file can be used in the load file tab in the ServerApplication to load up some basic player information for testing if the file name is typed in full.
+
 Note: Currently the UI is not very pretty and there are some exception handling issues and bugs if things aren't added properly.
+
 
 # Programming Concepts Used
 - **Multithreading:** This project uses multithreading to allow for multiple clients to connect to the server at the same time. This improves the responsiveness and overall performance of the database.
