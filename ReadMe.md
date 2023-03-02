@@ -22,4 +22,4 @@ Note: Currently the UI is not very pretty and there are some exception handling 
 
 - **JavaFX GUI:** The user interface of the database is built using JavaFX. This allows for a modern and customizable GUI with support for styling and theming.
 
-- **Exception Handling:** The project includes proper exception handling to catch and handle errors that may occur during runtime. This ensures that the database operates reliably and prevents crashes or data corruption.
+- **Exception Handling:** The project includes exception handling to catch and handle errors that may occur during runtime ensuring that the database operates reliably and prevents crashes or data corruption.
