@@ -1,7 +1,5 @@
 package edu.ucdenver.tournament;
 
-import java.io.Serializable;
-
 /**
  * Country contains functions that allow getting and setting a countries name
  */
