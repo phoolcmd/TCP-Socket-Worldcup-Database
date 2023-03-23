@@ -14,6 +14,9 @@ The "t.txt" file can be used in the load file tab in the ServerApplication to lo
 
 Note: Currently the UI is not very pretty and there are some exception handling issues and bugs if things aren't added properly.
 
+![1](https://user-images.githubusercontent.com/121768237/227258739-cf6cecdb-8483-4cf3-89e2-88267f328000.PNG)
+![2](https://user-images.githubusercontent.com/121768237/227258769-89e9f8e3-725c-4b53-b3ae-2ea1e4c95c3d.PNG)
+
 
 # Programming Concepts Used
 - **Multithreading:** This project uses multithreading to allow for multiple clients to connect to the server at the same time. This improves the responsiveness and overall performance of the database.
