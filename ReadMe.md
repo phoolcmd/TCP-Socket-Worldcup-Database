@@ -6,7 +6,9 @@ This project is a multithreaded TCP socket database written in Java and JavaFX. 
 # How to Use
 1. Compile and run the ServerApplication located in "src/main/java/edu/ucdenver/app".
 2. Run the ClientApplication located in "src/main/java/edu/ucdenver/app".
-3. Use the GUI to interact with the database.
+3. Run the AdminApplication located in "src/main/java/edu/ucdenver/app".
+4. Use the AdminApplication to edit the countries, teams, players, and matches.
+5. Use the ClientApplication to view matches based on team and date.
 
 The "t.txt" file can be used in the load file tab in the ServerApplication to load up some basic player information for testing if the file name is typed in full.
 
